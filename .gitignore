@@ -1,0 +1,23 @@
+
+# Python and Virtual Env
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Project Specific requested ignores
+docs/RHEAT-LSTM_Paper.pdf
+docs/extracted_paper_content.txt
+extract_pdf_text.py
+
+# Extracted figures and temporary scripts
+scripts/extract_images_from_pdf.py
+scripts/process_figures.py

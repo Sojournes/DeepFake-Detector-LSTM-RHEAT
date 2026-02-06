@@ -1,0 +1,11 @@
+torch
+torchvision
+timm==0.6.5
+einops
+numpy
+pillow
+scikit-learn
+matplotlib
+tqdm
+pypdf
+PyWavelets
