@@ -111,8 +111,3 @@ The model is evaluated on two benchmarks:
 
 > ![Figure 7](docs/figures/fig7_bar_plots.png)
 > _Fig. 7. Performance comparison using Accuracy and AUC bar plots._
-
-## Citation
-
-If you use this code found in this repository, please cite:
-Diwakar Sehgal, Saksham Negi, Kushagra Mishra, K.P.S. Rana, Vineet Kumar. "RHEAT-LSTM: A Hybrid Spatio-Temporal and Frequency Approach for Deepfake Detection using ResNet, Haar-EATFormer, and LSTM".
