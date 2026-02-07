@@ -111,3 +111,4 @@ The model is evaluated on two benchmarks:
 
 > ![Figure 7](docs/figures/fig7_bar_plots.png)
 > _Fig. 7. Performance comparison using Accuracy and AUC bar plots._
+
