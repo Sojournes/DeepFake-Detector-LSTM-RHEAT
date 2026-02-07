@@ -1,8 +1,5 @@
 # RHEAT-LSTM: Deepfake Detection
 
-**Authors:** Diwakar Sehgal, Saksham Negi, Kushagra Mishra, K.P.S. Rana, Vineet Kumar  
-**Institution:** Netaji Subhas University of Technology, New Delhi, India
-
 ## Abstract
 
 Deepfakes are false media developed by using deep learning technologies. They are used to spread misinformation through various modalities like images and videos. The advancement in deep learning has led to the creation of highly advanced deepfakes, which are indistinguishable from real media. The development of superior deepfake detection technology has become a necessity. There is a lack of evolutionary algorithms being applied for deepfake detection. This paper introduces a novel application of the EATformer attention model in deepfake detection. In the proposed methodology, the EATformer is used to extract global and local spatial features, the Haar-Wavelet transform is used to extract the frequency features, Resnet for CNN features, and LSTM to combine the output of all the frames and get the temporal output of the videos. The EATformer in RHEAT is capable of extracting subtle abnormalities which can be missed by other attention models. This methodology has been tested on diverse datasets like FaceForensics++ and Celeb-DF against state-of-the-art models to definitively prove its efficiency and generalisability. The comparison is made using metrics AUC and accuracy. The AUC and accuracy values achieved are 0.9977 and 97.14% for FF-DF, 0.9846 and 95.00% for FF-F2F, 0.9930 and 96.07% for FF-FS, and 0.9633 and 92.50% for FF-NT, with an overall AUC of 0.9847 and accuracy of 95.18%. On Celeb-DF, the AUC and accuracy values are 0.9993 and 99.23%, respectively.
